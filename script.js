@@ -11,6 +11,7 @@ function validateForm() {
     const photo = document.getElementById('photo').value.trim();
     const signature = document.getElementById('signature').value.trim();
 
+
     const dobError = document.getElementById('doberror');
     const addressError = document.getElementById('addresserror');
     const phoneError = document.getElementById('phoneerror');
